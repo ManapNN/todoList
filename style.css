@@ -1,0 +1,173 @@
+
+body {
+  margin: 0 auto;
+  background-image: url(http://www.wallpaper4computer.com/gal/bestblack/1600/e9319-76.jpg);
+  background-size: 100%;
+  background-repeat: initial;
+  max-height: max-content;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  /* border: 1px solid red; */
+  /* background-color: black; */
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgb(26, 26, 27);
+  color: rgb(250, 244, 250);
+}
+/* em, rem = 16px */
+.mainBlock {
+    background-color: rgb(95, 92, 92);
+    border: 1px solid rgb(95, 91, 91);
+  width: 500px;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px 20px 0 0;
+  display: block;
+  flex-wrap: wrap;
+flex: 6;
+}
+.taskItem {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(228, 221, 225);
+}
+.form {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-column-gap: 5px;
+  opacity: 8;
+}
+li {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+.textIn {
+  height: 2em;
+  text-align: center;
+  opacity: 9;
+}
+input,
+button {
+    
+  outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 10px 7px 0 5px;
+
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+.task {
+  display: grid;
+  grid-template-columns: 9fr 1fr 1fr;
+  margin-top: 15px;
+  text-decoration: dashed;
+}
+.done {
+  text-decoration: line-through;
+  opacity: 5;
+  color: rgb(233, 224, 231);
+}
+
+@media (max-width: 450px) {
+ 
+
+.comeClick{
+  margin-right: 10px;
+}
+
+.delClick{
+  margin-right: 155px;
+  position: relative;
+}
+    .form {
+      flex-wrap: wrap;
+      display: grid;
+      grid-template-rows: 3fr 1fr 1fr;
+      height: auto;
+      width: auto;
+      flex-direction: row;
+      
+    }
+    #id {
+      /* position: relative; */
+      margin-right: 40px;
+      display: grid;
+      
+    }
+    li{
+    margin-right: 20px;
+    }
+    .textIn {
+      width: 220px;
+      margin-right: -150px;
+    }
+    .taskItem {
+      margin-left: -20px;
+      font-weight: 600;
+      margin-top: -20px;
+      width: 330px;
+      color: rgb(129, 127, 129);
+      text-shadow: 0px 0px 3px rgb(253, 251, 253);
+    }
+    .input-date {
+      margin-top: 50px;
+      margin-left: -85px;
+      margin-bottom: -10px;
+      margin-right: 25px;
+      width: 150px;
+    }
+    #addBtn {
+      margin-top: 50px;
+      position: relative;
+      margin-bottom: -10px;
+      /* margin-right: 60px; */
+      margin-left: -15px;
+      /* align-items: flex-start; */
+      /* margin-left: 1px; */
+      width: 55px;
+    }
+  
+    h1{
+        font-size: 30px;
+    }
+
+    .container {
+        margin: 0 auto;
+        display: flex;
+        width: 400px;
+        /* margin-left: 40px; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        margin-top: 100px;
+        /* display: inline-block; */
+      }
+      .mainBlock {
+        display: flex;
+        height: auto;
+        width: 230px;
+        padding: 15px;
+        padding-bottom: 10px;
+        padding-right: -10px;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+      }
+      body {
+background-color: rgb(51, 50, 50);
+      }
+  }
